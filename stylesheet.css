@@ -1,12 +1,43 @@
-a {
-  float: right;
+/*GENERAL STYLES*/
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
 }
+a {
+  color: #000;
+  opacity: .85;
+  text-decoration: none;
+}
+/*TOP LINK STYLES*/
+.gmail {
+  position: absolute;
+  right: 224px;
+  top: 24px;
+}
+.images {
+  position: absolute;
+  right: 166px;
+  top: 24px;
+}
+
+/*ICON STYLES*/
 .icon {
-  height: 40px;
-  width: 40px;
-  float: right;
+  position: absolute;
+  opacity: .55;
 }
 .apps {
+  height: 24px;
+  width: 24px;
   background-image: url('http://www.englewoodschools.net/cms/lib8/CO01900647/Centricity/Domain/1009/GoogleAppsIcon.png');
   background-size: 100% 100%;
+  right: 122px;
+  top: 20px;
+}
+.notification {
+  height: 19px;
+  width: 19px;
+  background-color: #000;
+  border-radius: 100%;
+  top: 22px;
+  right: 80px;
 }
