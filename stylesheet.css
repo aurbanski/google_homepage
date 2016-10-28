@@ -1,0 +1,12 @@
+a {
+  float: right;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+.apps {
+  background-image: url('http://www.englewoodschools.net/cms/lib8/CO01900647/Centricity/Domain/1009/GoogleAppsIcon.png');
+  background-size: 100% 100%;
+}
