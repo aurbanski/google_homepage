@@ -17,6 +17,9 @@ a {
   display: inline-block;
   vertical-align: middle;
 }
+.links:hover {
+  text-decoration: underline;
+}
 
 /*ICON STYLES*/
 .icon {
@@ -24,6 +27,9 @@ a {
   vertical-align: middle;
   display: inline-block;
   margin: 9px 8px 0 8px;
+}
+.icon:hover {
+  opacity: 1;
 }
 
 .apps {
@@ -57,4 +63,91 @@ a {
 
   background-color: #609;
   border-radius: 100%;
+}
+
+/*MIDDLE SEARCH STYLES*/
+.search {
+  clear: both;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  padding-top: 8%;
+  padding-bottom: 10px;
+}
+
+.searchbar {
+  height: 35px;
+  width: 580px;
+  display: block;
+  margin: 0 auto;
+  border-color: rgba(0, 0, 0, .15);
+  border-width: 1px;
+}
+.searchbar:hover {
+  border-color: rgba(0, 0, 0, .35);
+}
+.searchbar:focus {
+  border-color: #0099ff;
+  outline: none;
+}
+
+button{
+  vertical-align: middle;
+  border-radius: 2px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .05);
+
+  border: none;
+}
+.buttons {
+  display: inline-block;
+  margin: 0 0 0 42.5%;
+}
+.google_search {
+  margin: 28px 2px;
+  height: 36px;
+  width: 127px;
+}
+.google_search:hover {
+
+}
+.lucky {
+  margin: 28px 2px;
+  height: 36px;
+  width: 145px;
+}
+
+/*FOOTER STYLES*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 41px;
+
+  background-color: rgba(0, 0, 0, .05);
+  border-top: solid rgba(0, 0, 0, .1) 1px;
+}
+.left_footer {
+  float: left;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+.right_footer {
+  float: right;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+.left_footer .links {
+  display: inline-block;
+  opacity: .7;
+  padding-left: 17px;
+}
+.right_footer .links {
+  display: inline-block;
+  opacity: .7;
+  padding-right: 17px;
 }
