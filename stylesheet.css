@@ -84,6 +84,10 @@ a {
   margin: 0 auto;
   border-color: rgba(0, 0, 0, .15);
   border-width: 1px;
+  background-image: url("http://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png");
+  background-size: 2.5%;
+  background-repeat: no-repeat;
+  background-position: 98%;
 }
 .searchbar:hover {
   border-color: rgba(0, 0, 0, .35);
